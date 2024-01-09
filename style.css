@@ -1,0 +1,45 @@
+*, *::before, *::after {
+  border: none;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.section-one {
+ background-color: #1F2937;
+ height: 500px;
+ padding: 28px 300px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+  align-items: flex-end;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
