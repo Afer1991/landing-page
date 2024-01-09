@@ -43,3 +43,49 @@ a {
   text-decoration: none;
   color: #E5E7EB;
 }
+
+.container-one {
+  padding: 200px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.divider-one {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-shrink: 2;
+  gap: 16px;
+}
+
+.hero-main {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: bolder;
+}
+
+.hero-secondary {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.container-one button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-size: 18px;
+  font-weight: bolder;
+  border-radius: 5px;
+  padding: 8px 32px;
+}
+
+.divider-two {
+  background: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 1;
+  height: 250px;
+  width: 700px;
+}
