@@ -1,5 +1,6 @@
 *, *::before, *::after {
   border: none;
+  margin: 0;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
 
 .section-one {
  background-color: #1F2937;
- height: 500px;
+ height: 600px;
  padding: 28px 300px;
 }
 
@@ -45,9 +46,10 @@ a {
 }
 
 .container-one {
-  padding: 200px 0;
+  margin-top: 150px;
   display: flex;
   justify-content: space-between;
+  gap: 350px;
 }
 
 .divider-one {
@@ -55,8 +57,8 @@ a {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: flex-start;
+  justify-content: space-around;
   flex-shrink: 2;
-  gap: 16px;
 }
 
 .hero-main {
@@ -77,10 +79,11 @@ a {
   font-weight: bolder;
   border-radius: 5px;
   padding: 8px 32px;
+  cursor: pointer;
 }
 
 .divider-two {
-  background: gray;
+  background: grey;
   color: white;
   display: flex;
   justify-content: center;
@@ -88,4 +91,49 @@ a {
   flex-shrink: 1;
   height: 250px;
   width: 700px;
+}
+
+.section-two {
+  height: 675px;
+}
+
+.information-header {
+  text-align: center;
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: bolder;
+  padding: 72px 0;
+}
+
+.container-two {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.divider-three {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 205px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #3882F6;
+  border-radius: 10%;
+}
+
+.text {
+  padding: 12px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.section-three {
+  background-color: #E5E7EB;
+  height: 500px;
 }
