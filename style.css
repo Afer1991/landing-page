@@ -136,4 +136,44 @@ a {
 .section-three {
   background-color: #E5E7EB;
   height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container-three {
+  max-width: 900px;
+}
+
+.divider-four {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.divider-five {
+  font-weight: bold;
+  text-align: right;
+  margin-top: 24px;
+}
+
+.section-four {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-four {
+  background-color: #3882F6;
+  width: 1000px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
