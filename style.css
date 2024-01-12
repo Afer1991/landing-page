@@ -49,7 +49,6 @@ a {
   margin-top: 150px;
   display: flex;
   justify-content: space-between;
-  gap: 350px;
 }
 
 .divider-one {
@@ -58,7 +57,7 @@ a {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-around;
-  flex-shrink: 2;
+  width: 350px;
 }
 
 .hero-main {
@@ -88,9 +87,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-shrink: 1;
   height: 250px;
-  width: 700px;
+  width: 500px;
 }
 
 .section-two {
@@ -170,10 +168,40 @@ a {
 
 .container-four {
   background-color: #3882F6;
-  width: 1000px;
-  height: 200px;
   border-radius: 10px;
+  padding: 56px 144px;
+  width: 850px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.subdivider-one {
+  color: #E5E7EB;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.subdivider-two {
+  color: #E5E7EB;
+}
+
+.section-four button {
+  background-color: #3882F6;
+  border: 2px solid #E5E7EB;
+  border-radius: 5px;
+  color: #E5E7EB;
+  padding: 8px 32px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #1F2937;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
 }
